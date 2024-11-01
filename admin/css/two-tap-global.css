@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'twotap';
+  src:  url('../fonts/twotap.eot?ax47ls');
+  src:  url('../fonts/twotap.eot?ax47ls#iefix') format('embedded-opentype'),
+    url('../fonts/twotap.ttf?ax47ls') format('truetype'),
+    url('../fonts/twotap.woff?ax47ls') format('woff'),
+    url('../fonts/twotap.svg?ax47ls#twotap') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'twotap' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twotap_circle .path1:before {
+  content: "\e900";
+  color: rgb(237, 72, 92);
+}
+.icon-twotap_circle .path2:before {
+  content: "\e901";
+  margin-left: -0.9912109375em;
+  color: rgb(255, 255, 255);
+}
+#adminmenu #toplevel_page_twotap_products_page .menu-icon-generic div.wp-menu-image::before{
+  font-family: 'twotap' !important;
+  content: "\e900";
+}
+.icon-two-tap-logo::before{
+  font-family: 'twotap' !important;
+  content: "\e900";
+}
+.dashicons-twotap_circle::before{
+  font-family: 'twotap' !important;
+  content: "\e900";
+}

@@ -1,0 +1,28 @@
+<phpunit
+        colors="true"
+        stderr="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        stopOnFailure="false"
+        bootstrap="tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="TwoTap PHP SDK Test Suite">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src/TwoTap</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <env name="SAMPLE_PRODUCT_SITE_ID" value="51cd7d0f55a0f902d8000003"/>
+        <env name="SAMPLE_PRODUCT_MD5" value="76df3b09955a95a044438d6e9d265caa"/>
+        <env name="TWOTAP_PUBLIC_TOKEN" value="public_token"/>
+        <env name="TWOTAP_PRIVATE_TOKEN" value="private_token"/>
+        <env name="SAMPLE_PRODUCT_URL_1" value="http://www.shoemetro.com/p-497311-swwann.aspx"/>
+        <env name="SAMPLE_PRODUCT_URL_2" value="http://www.shoemetro.com/p-473298-karima-2.aspx"/>
+        <env name="SAMPLE_CART_ID" value="5898613e2237fe04bbbf8c8f"/>
+    </php>
+</phpunit>

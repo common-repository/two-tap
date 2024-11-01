@@ -1,0 +1,48 @@
+{
+    "name": "two-tap/woocommerce-plugin",
+    "authors": [
+        {
+            "name": "Adrian Marin",
+            "email": "adrian@adrianthedev.com"
+        }
+    ],
+    "require": {
+        "two-tap/php-sdk": "^1.0",
+        "symfony/var-dumper": "^3.2",
+        "monolog/monolog": "^1.0",
+        "automattic/woocommerce": "^1.2",
+        "vlucas/phpdotenv": "^2.4",
+        "pulse00/monolog-parser": "^0.0.3"
+    },
+    "autoload": {
+        "files": [
+            "includes/class-two-tap-define-constants.php",
+            "includes/class-two-tap-logger.php",
+            "includes/functions/two-tap-core-functions.php",
+            "includes/functions/two-tap-cart-functions.php",
+            "includes/functions/two-tap-order-functions.php",
+            "includes/functions/two-tap-product-functions.php",
+            "includes/functions/two-tap-purchase-functions.php",
+            "includes/functions/two-tap-response-functions.php",
+            "includes/two-tap-apis.php",
+            "includes/class-two-tap-loader.php",
+            "includes/class-two-tap-i18n.php",
+            "includes/class-two-tap-notices.php",
+            "includes/class-two-tap-convertor.php",
+            "includes/class-two-tap-mail.php",
+            "includes/class-two-tap-product.php",
+            "includes/class-two-tap-cart.php",
+            "includes/class-two-tap-categories.php",
+            "includes/class-two-tap-purchase.php",
+            "includes/class-two-tap-shipping-estimates.php",
+            "includes/post-types/class-two-tap-cart-post-type.php",
+            "includes/post-types/class-two-tap-product-post-type.php",
+            "includes/post-types/class-two-tap-purchase-post-type.php",
+            "includes/post-types/class-two-tap-shop-order-post-type.php",
+            "admin/class-two-tap-admin.php",
+            "admin/install/class-two-tap-admin-setup-helper.php",
+            "admin/pages/class-two-tap-settings-page.php",
+            "public/class-two-tap-public.php"
+        ]
+    }
+}

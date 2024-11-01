@@ -1,0 +1,685 @@
+[
+    {
+        "name": "vlucas/phpdotenv",
+        "version": "v2.4.0",
+        "version_normalized": "2.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vlucas/phpdotenv.git",
+            "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+            "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8 || ^5.0"
+        },
+        "time": "2016-09-01 10:05:43",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dotenv\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause-Attribution"
+        ],
+        "authors": [
+            {
+                "name": "Vance Lucas",
+                "email": "vance@vancelucas.com",
+                "homepage": "http://www.vancelucas.com"
+            }
+        ],
+        "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+        "keywords": [
+            "dotenv",
+            "env",
+            "environment"
+        ]
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0"
+        },
+        "time": "2016-12-20 10:07:11",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06 14:39:51",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "guzzlehttp/psr7",
+        "version": "1.4.2",
+        "version_normalized": "1.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+            "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2017-03-20 17:10:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Tobias Schultze",
+                "homepage": "https://github.com/Tobion"
+            }
+        ],
+        "description": "PSR-7 message implementation that also provides common utility methods",
+        "keywords": [
+            "http",
+            "message",
+            "request",
+            "response",
+            "stream",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "6.3.0",
+        "version_normalized": "6.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+            "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/promises": "^1.0",
+            "guzzlehttp/psr7": "^1.4",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "^4.0 || ^5.0",
+            "psr/log": "^1.0"
+        },
+        "suggest": {
+            "psr/log": "Required for using the Log middleware"
+        },
+        "time": "2017-06-22 18:50:49",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions_include.php"
+            ],
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "two-tap/php-sdk",
+        "version": "1.0.6",
+        "version_normalized": "1.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/two-tap/php-sdk.git",
+            "reference": "981fd7b089eec39ff2233948021a6eef095c8237"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/two-tap/php-sdk/zipball/981fd7b089eec39ff2233948021a6eef095c8237",
+            "reference": "981fd7b089eec39ff2233948021a6eef095c8237",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "^6.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.0",
+            "symfony/var-dumper": "^3.2"
+        },
+        "time": "2017-05-08 12:57:28",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TwoTap\\": "src/TwoTap/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "TwoTap",
+                "email": "hello@twotap.com"
+            }
+        ],
+        "description": "The Two Tap SDK for PHP provides a native interface to the Two Tap API"
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
+            "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2017-06-09 14:24:12",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/var-dumper",
+        "version": "v3.3.4",
+        "version_normalized": "3.3.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/var-dumper.git",
+            "reference": "9ee920bba1d2ce877496dcafca7cbffff4dbe08a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9ee920bba1d2ce877496dcafca7cbffff4dbe08a",
+            "reference": "9ee920bba1d2ce877496dcafca7cbffff4dbe08a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "conflict": {
+            "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+        },
+        "require-dev": {
+            "ext-iconv": "*",
+            "twig/twig": "~1.34|~2.4"
+        },
+        "suggest": {
+            "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+            "ext-symfony_debug": ""
+        },
+        "time": "2017-07-05 13:02:37",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "Resources/functions/dump.php"
+            ],
+            "psr-4": {
+                "Symfony\\Component\\VarDumper\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony mechanism for exploring and dumping PHP variables",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "debug",
+            "dump"
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-10-10 12:19:37",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "monolog/monolog",
+        "version": "1.23.0",
+        "version_normalized": "1.23.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Seldaek/monolog.git",
+            "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+            "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "psr/log": "~1.0"
+        },
+        "provide": {
+            "psr/log-implementation": "1.0.0"
+        },
+        "require-dev": {
+            "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+            "doctrine/couchdb": "~1.0@dev",
+            "graylog2/gelf-php": "~1.0",
+            "jakub-onderka/php-parallel-lint": "0.9",
+            "php-amqplib/php-amqplib": "~2.4",
+            "php-console/php-console": "^3.1.3",
+            "phpunit/phpunit": "~4.5",
+            "phpunit/phpunit-mock-objects": "2.3.0",
+            "ruflin/elastica": ">=0.90 <3.0",
+            "sentry/sentry": "^0.13",
+            "swiftmailer/swiftmailer": "^5.3|^6.0"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+            "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+            "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+            "ext-mongo": "Allow sending log messages to a MongoDB server",
+            "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+            "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+            "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+            "php-console/php-console": "Allow sending log messages to Google Chrome",
+            "rollbar/rollbar": "Allow sending log messages to Rollbar",
+            "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+            "sentry/sentry": "Allow sending log messages to a Sentry server"
+        },
+        "time": "2017-06-19 01:22:40",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Monolog\\": "src/Monolog"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jordi Boggiano",
+                "email": "j.boggiano@seld.be",
+                "homepage": "http://seld.be"
+            }
+        ],
+        "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+        "homepage": "http://github.com/Seldaek/monolog",
+        "keywords": [
+            "log",
+            "logging",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "automattic/woocommerce",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/woocommerce/wc-api-php.git",
+            "reference": "6181e20b96e95b2be8639d1e1dce76cc98856339"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/woocommerce/wc-api-php/zipball/6181e20b96e95b2be8639d1e1dce76cc98856339",
+            "reference": "6181e20b96e95b2be8639d1e1dce76cc98856339",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">= 5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2017-06-06 20:38:08",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Automattic\\WooCommerce\\": [
+                    "src/WooCommerce"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Claudio Sanches",
+                "email": "claudio.sanches@automattic.com"
+            }
+        ],
+        "description": "A PHP wrapper for the WooCommerce REST API",
+        "keywords": [
+            "api",
+            "woocommerce"
+        ]
+    },
+    {
+        "name": "pulse00/monolog-parser",
+        "version": "0.0.3",
+        "version_normalized": "0.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pulse00/monolog-parser.git",
+            "reference": "2ef54746f428f0efe959a9bdeb11294aa8872d2f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pulse00/monolog-parser/zipball/2ef54746f428f0efe959a9bdeb11294aa8872d2f",
+            "reference": "2ef54746f428f0efe959a9bdeb11294aa8872d2f",
+            "shasum": ""
+        },
+        "require": {
+            "monolog/monolog": "1.*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.5"
+        },
+        "time": "2015-05-21 16:25:17",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Dubture": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Robert Gruendler",
+                "email": "r.gruendler@gmail.com"
+            }
+        ],
+        "description": "A parser for monolog log entries"
+    }
+]
